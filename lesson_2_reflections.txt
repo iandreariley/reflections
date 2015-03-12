@@ -12,3 +12,10 @@ were no staging area and you'd changed several files, you would have no
 way of breaking those changes into several commits, even if they constituted
 different logical changes. The staging area allows you to break up current
 changes into several commits if you so desire.
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+- If two separate logical changes are made, each to a separate file, those
+changes can be made in two separate commits using the staging area to
+commit first one file, then the other.
