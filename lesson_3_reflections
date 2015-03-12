@@ -25,3 +25,14 @@ stored locally?
 
 - That way you can work on it offline without having to commit to merging
 with it.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+- I think I might collaborate without using github if I had a single fellow
+collaborator and we were going to pair program - or somehow work in a way
+where we weren't going to have to merge a lot of ideas. Merging is made
+way easier by github, but the price you pay is a more lengthy version control
+process. However, if there were a lot of programmers working on a single
+project, and especially if they were working simultaneously on different
+aspects of that project, it would make the most sense to use github.
