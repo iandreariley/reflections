@@ -38,3 +38,10 @@ in the diagram the way we do?
 - The result is that all the changes that were made on both branches to their
 common ancestor are added to that common ancestor, and that becomes the new
 commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+- Pros are certainly that it makes merging easier. Con is that it allows to
+people to diverge further than they might otherwise by relying on the merge
+function.
