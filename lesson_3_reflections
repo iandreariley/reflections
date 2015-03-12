@@ -19,3 +19,9 @@ use one instead of another?
 fork is a special type of clone made from one github account to another, it
 preserves its parent directory. A branch a specific history of commits in a
 project.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+- That way you can work on it offline without having to commit to merging
+with it.
