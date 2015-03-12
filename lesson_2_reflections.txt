@@ -31,3 +31,10 @@ How do the diagrams help you visualize the branch structure?
 
 - They help me understand the relationships between commits and different
 branches.
+
+What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+- The result is that all the changes that were made on both branches to their
+common ancestor are added to that common ancestor, and that becomes the new
+commit.
