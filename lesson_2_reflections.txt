@@ -19,3 +19,10 @@ logical change?
 - If two separate logical changes are made, each to a separate file, those
 changes can be made in two separate commits using the staging area to
 commit first one file, then the other.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+- If there are two different versions of a project (e.g. and experimental
+version and a stable version), branches allow both to worked on side by
+side without confusing copies of files everywhere.
