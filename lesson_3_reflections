@@ -11,3 +11,11 @@ automatically stay up-to-date with your remote repository?
 
 - If commits are pushed to the remote by another person working on the same
 project, your project may be updated in ways that would break it.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+- A clone is a copy of another repository (usually on your local machine), a
+fork is a special type of clone made from one github account to another, it
+preserves its parent directory. A branch a specific history of commits in a
+project.
