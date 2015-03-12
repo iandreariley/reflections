@@ -36,3 +36,11 @@ way easier by github, but the price you pay is a more lengthy version control
 process. However, if there were a lot of programmers working on a single
 project, and especially if they were working simultaneously on different
 aspects of that project, it would make the most sense to use github.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+- You want to use a branch whenever you're experimenting with a concept where
+there may be more than one way forward with the project. The branching
+mechanism is helpful because it allows us to play with different versions of
+things, all of which may end up begin useful and mergeable.
