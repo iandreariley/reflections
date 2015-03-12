@@ -1,6 +1,13 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all your work
+local?
 
-- If for no other reason, it is a good backup to whatever is on your local machine.
-Also, if your local master is not 'production ready' and you're trying to share
-your software with others via github, it would make sense to have the remote be the
-most recent stable version.
+- If for no other reason, it is a good backup to whatever is on your local
+machine. Also, if your local master is not 'production ready' and you're trying
+to share your software with others via github, it would make sense to have the
+remote be the most recent stable version.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+- If commits are pushed to the remote by another person working on the same
+project, your project may be updated in ways that would break it.
