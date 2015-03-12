@@ -1,0 +1,53 @@
+diff -u file_old file_new:
+	lines in the old file that aren't in the new file prefaced by a '-'
+	lines in the new file that aren't in the old file prefaced by a '+'
+
+How did viewing a diff between two versions of  a file
+help you see the bug that was introduced?
+
+- It highlights changed lines with a '-' or a '+'
+
+How could having easy access to the entrie history of a file make you a
+more efficient programmer in the long term?
+
+- Say you make a change to a file and introduce a program breaking bug;
+or even worse, a bug that's very hard to isolate. You could go back to
+the most recent working version and see where the differences between
+the two files are, which will likely shorten the time to finding the bug,
+as it must have been introduced by those lines.
+
+What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google docs does?
+
+- It's possible that you forget to make a commit, or make the poor choice
+to keep working past when you know you should commit, and then lose your
+work, or end up with such a large commit that the difference between the
+two files is too great for the git diff function to be particularly helpful
+in locating a bug.
+The upside is that you don't end up with a version history so cluttered that
+its unintelligable.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+- VCSs like Git are built for tracking projects, which may span multiple files
+and directories. Applications like google docs are used primarily for one-file
+projects like a text or spreadsheet.
+
+How can you use the commands git log and git diff to view the history of files?
+
+- Git log gives the entire version history of the project, git diff shows the
+difference between two given commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+- Knowing that it would be easy to track back to a working version certainly
+would make me more confident in that regard.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+- I want to use it to keep track of my problems, and to be able to share my
+code via github.
